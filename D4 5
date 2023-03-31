@@ -1,0 +1,12 @@
+#include<stdio.h>
+struct rectangle 
+{float width;
+float height;
+}a1;
+ int main()
+{float area;
+a1.width=20.0;
+a1.height=20.0;
+area=a1.width*a1.height;
+printf("area=%f",area);
+}
